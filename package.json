@@ -1,11 +1,12 @@
 {
   "name": "starter_template",
   "version": "1.0.0",
-  "description": "This is starter template for backend developers",
+  "description": "This is starter template for backend/api developers",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "keywords": [
     "mongodb",
@@ -13,5 +14,12 @@
     "node"
   ],
   "author": "Karan Yadav",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1"
+  }
 }
