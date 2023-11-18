@@ -1,0 +1,17 @@
+{
+  "name": "starter_template",
+  "version": "1.0.0",
+  "description": "This is starter template for backend developers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "node"
+  ],
+  "author": "Karan Yadav",
+  "license": "MIT"
+}
