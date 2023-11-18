@@ -32,7 +32,7 @@
 ## Testing
 
 - test it on postman
-- open up new request and make a GET request to <http://localhost>:[PORT]/api/test
+- open up new request and make a GET request to : `http://localhost:[PORT]/api/test`
 - replace the port with the port number shown on terminal
 
 ## Folder Structure
